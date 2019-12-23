@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='icon' href='avatar.png'>
+        <title>Mithileysh</title>
+
+        <style>
+            body {
+                max-width: 1024px;
+                margin: 10px auto; /* center whole page */
+            }
+            .summary {
+                text-align: center;
+            }
+            .summary img {
+                width: 50px;
+                border-radius: 50%;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            .summary span {
+                font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 20px;
+                font-weight: lighter;
+                color: black;
+            }
+            .projects {
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .project {
+                margin: 20px auto; /* center all projects */
+                width: 300px;
+                border: 1px solid hsl(0, 0%, 80%);
+                border-radius: 5px;
+                box-shadow: 0 0 5px hsl(0, 0%, 80%);
+                display: inline-block;
+                text-decoration: none;
+            }
+            .project:hover {
+                border: 1px solid orangered;
+                box-shadow: 0 0 5px orangered;
+                transition: all 0.2s ease-in-out;
+            }
+            .project img {
+                max-width: 100%;
+                max-height: 200px;
+                display: block;
+                margin: auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .project span {
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 12px;
+                border-top: 1px solid hsl(0, 0%, 80%);
+                display: block;
+                padding: 5px;
+                color: gray;
+            }
+            .project span .title {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='summary'>
+            <img src="images/avatar.png"/>
+            <span>Mithileysh is an educator and a researcher interested in Digital Experience, Interaction Experience (HCI), Data Experience, Communication, Visualisation, and Social Informatics. Some of his projects are below.</span>
+        </div>
+        <h2>Email Visualisation Project</h2>
+        <div class='projects'>
+            <a class='project' href='https://phongvis.github.io/threadlet/' target='_blank' >
+                <img src="images/threadlet.png">
+                <span><b class='title'>Threadlet.</b> Visual exploration of email threads.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Email-Topic-Analysis/' target='_blank' >
+                <img src="images/emailtopic.png">
+                <span><b class='title'>EmailTopic.</b> Visual topic exploration of emails.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Enron-Email-Topic-Modelling/' target='_blank' >
+                <img src="images/enrontopicmodelling.png">
+                <span><b class='title'>EnronEmailTopicModelling.</b> Visual exploration of email topics.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Topic-Modelling-Email-Visualisation/' target='_blank' >
+                <img src="images/emailtopicmodelling.png">
+                <span><b class='title'>HillaryEmailTopicModelling.</b> Visual exploration of email topics.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Hillary-Clinton-Email-Topic-Analysis/' target='_blank' >
+                <img src="images/hillarytopic.png">
+                <span><b class='title'>HillaryTopic.</b> Visual exploration of Hillary Clinton email topics.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Email-Individual-Analysis/' target='_blank' >
+                <img src="images/emailind.png">
+                <span><b class='title'>EmailInd.</b> Visual individual exploration of emails.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Email-Temporal-Analysis/' target='_blank' >
+                <img src="images/emailtemp.png">
+                <span><b class='title'>EmailTemp.</b> Visual temporal exploration of emails.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Investigation-Tool-Explorer/' target='_blank' >
+                <img src="images/investigationtool.png">
+                <span><b class='title'>Investigation Tool Explorer.</b> Digital Communication Decision Aid.</span>
+            </a>
+            <a class='project' href='https://mithileysh.github.io/Email-Circle-Packing/' target='_blank' >
+                <img src="images/emailcircle.png">
+                <span><b class='title'>Email Circle Packing.</b> Visual Exploration of Emails using Circle Packing.</span>
+            </a>
+        </div>
+    </body>
+</html>
